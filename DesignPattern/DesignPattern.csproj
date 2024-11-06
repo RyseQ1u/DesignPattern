@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="C_Decorato\" />
+    <Folder Include="D_Proxy\" />
   </ItemGroup>
 
 </Project>
