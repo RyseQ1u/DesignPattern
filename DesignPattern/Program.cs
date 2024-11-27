@@ -5,6 +5,11 @@ Console.WriteLine("Hello, World!");
 
 #region Decorator
 
-Decorator.Test();
+//Decorator.Test();
 
 #endregion Decorator
+
+#region Factory
+
+//Decorator.Test();
+#endregion
