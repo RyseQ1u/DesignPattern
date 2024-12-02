@@ -1,12 +1,4 @@
-﻿using DesignPattern.J_Observer.Observer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Collections.Specialized.BitVector32;
-
-namespace DesignPattern.J_Observer.Subject
+﻿namespace DesignPattern.J_Observer.Subject
 {
     internal class Boss : ISubject
     {

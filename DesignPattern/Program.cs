@@ -2,6 +2,7 @@
 using DesignPattern.C_Decorator;
 using DesignPattern.I_Builder;
 using DesignPattern.J_Observer;
+using DesignPattern.K_AbsFactory;
 
 Console.WriteLine("Hello, World!");
 
@@ -25,8 +26,14 @@ Console.WriteLine("Hello, World!");
 
 #region Observer
 
-new ObserverTest().Run();
+//new ObserverTest().Run();
 
 #endregion Observer
+
+#region AbsFactory
+
+new AbsFactoryTest().Run();
+
+#endregion AbsFactory
 
 Console.ReadLine();

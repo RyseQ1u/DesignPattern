@@ -28,9 +28,9 @@ namespace DesignPattern.J_Observer
 
             var hhs = new Boss();
             var so = new StockObserver("同事1", hhs);
-            var no = new StockObserver("同事2", hhs);
-            hhs.Update += so.CloseStock;
-            hhs.Update += no.CloseStock;
+            var no = new NBAObserver("同事2", hhs);
+            hhs.UpdateActionEvent += so.CloseStock;
+            hhs.UpdateActionEvent += no.CloseNBA;
 
             //hhs.Attach(so);
             //hhs.Attach(no);
