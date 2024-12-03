@@ -30,16 +30,27 @@ namespace DesignPattern.K_AbsFactory
             #region V2
 
             IFactory factory = new SqlServerFactory();
-            IUser iu = factory.CreateUser();
+            //IUser iu = factory.CreateUser();
+            //iu.Insert(user);
+            //iu.GetUser(1);
+
+            //IFactory factoryD = new AccessFactory();
+            //IDepartment id = factoryD.CreateDepartment();
+            //id.Insert(department);
+            //id.GetDepartment(1);
+
+            #endregion V2
+
+            #region V3
+
+            IUser iu = DataAccess.CreateUser();
+            IDepartment id = DataAccess.CreateDepartment();
             iu.Insert(user);
             iu.GetUser(1);
-
-            IFactory factoryD = new AccessFactory();
-            IDepartment id = factoryD.CreateDepartment();
             id.Insert(department);
             id.GetDepartment(1);
 
-            #endregion V2
+            #endregion V3
         }
     }
 }
