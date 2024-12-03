@@ -3,6 +3,7 @@ using DesignPattern.C_Decorator;
 using DesignPattern.I_Builder;
 using DesignPattern.J_Observer;
 using DesignPattern.K_AbsFactory;
+using DesignPattern.L_State;
 
 Console.WriteLine("Hello, World!");
 
@@ -32,8 +33,14 @@ Console.WriteLine("Hello, World!");
 
 #region AbsFactory
 
-new AbsFactoryTest().Run();
+//new AbsFactoryTest().Run();
 
 #endregion AbsFactory
+
+#region State
+
+new StateTest().Run();
+
+#endregion State
 
 Console.ReadLine();
