@@ -4,6 +4,11 @@ using DesignPattern.I_Builder;
 using DesignPattern.J_Observer;
 using DesignPattern.K_AbsFactory;
 using DesignPattern.L_State;
+using DesignPattern.M_Adapter;
+using DesignPattern.M_Adapter.Adapters;
+using DesignPattern.N_Composite;
+using DesignPattern.N_Composite.Compoents;
+using DesignPattern.O_Memento;
 
 Console.WriteLine("Hello, World!");
 
@@ -39,8 +44,26 @@ Console.WriteLine("Hello, World!");
 
 #region State
 
-new StateTest().Run();
+//new StateTest().Run();
 
 #endregion State
+
+#region Adapter
+
+//new AdapterTest().Run();
+
+#endregion Adapter
+
+#region Component
+
+//new ComponentTest().Run();
+
+#endregion Component
+
+#region Memento
+
+new MementoTest().Run();
+
+#endregion Memento
 
 Console.ReadLine();
