@@ -9,6 +9,7 @@ using DesignPattern.M_Adapter.Adapters;
 using DesignPattern.N_Composite;
 using DesignPattern.N_Composite.Compoents;
 using DesignPattern.O_Memento;
+using DesignPattern.P_Iterator;
 
 Console.WriteLine("Hello, World!");
 
@@ -54,16 +55,22 @@ Console.WriteLine("Hello, World!");
 
 #endregion Adapter
 
-#region Component
+#region Composite
 
 //new ComponentTest().Run();
 
-#endregion Component
+#endregion Composite
 
 #region Memento
 
-new MementoTest().Run();
+//new MementoTest().Run();
 
 #endregion Memento
+
+#region Iterator
+
+new IteratorTest().Run();
+
+#endregion Iterator
 
 Console.ReadLine();

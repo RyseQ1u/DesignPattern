@@ -8,6 +8,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="P_Iterator\新文件夹\**" />
+    <EmbeddedResource Remove="P_Iterator\新文件夹\**" />
+    <None Remove="P_Iterator\新文件夹\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="E_Factory\Operation.cs" />
     <Compile Remove="E_Factory\OperationAdd.cs" />
     <Compile Remove="E_Factory\OperationDiv.cs" />
